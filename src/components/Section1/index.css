@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  height: 62.5rem;
+  background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 0 auto 3.56rem;
+  padding-top: 3.56rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .menu {
+  display: flex;
+  align-items: center;
+  width: 21.31rem;
+}
+
+.top img {
+  width: 16.56rem;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.menu ul a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.connect-wallet {
+  width: 18%;
+  height: 3.12rem;
+  font-size: 1rem;
+  color: var(--black-text);
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-wallet img {
+  width: 1.87rem;
+  margin-right: 1rem;
+}
+
+.box-content {
+  max-width: 79.8rem;
+  width: 100%;
+  height: 246px;
+  margin: 5.62rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 31%;
+  height: 100%;
+  padding-top: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-content p {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.avatars-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+
+  width: 100%;
+  margin-top: 3.43rem;
+}
+
+.avatars-group img {
+  width: 10.56rem;
+}
+
+.center-content {
+  width: 46.6%;
+  height: 100%;
+}
+
+.center-content p {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 3.12rem;
+  line-height: 4rem;
+}
+
+.center-content span {
+  color: var(--color-logo);
+}
+
+.right-content {
+  width: 15.66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-content img {
+  width: 12.5rem;
+  float: right;
+}
+
+.gallery {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 6.25rem auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 3.75rem;
+}

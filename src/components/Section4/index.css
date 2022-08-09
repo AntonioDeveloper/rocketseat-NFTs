@@ -1,0 +1,75 @@
+.artists {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 9.44rem auto 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: 28.33% 28.33% 28.33%;
+  column-gap: 5%;
+  row-gap: 6.94rem;
+  justify-content: space-between;
+
+  margin-top: 7.5rem;
+}
+
+.blocks div {
+  display: flex;
+
+  background-color: var(--card-color);
+}
+
+.blocks div:not(.text) {
+  padding: 1.56rem 2rem;
+}
+
+/* .blocks:nth-child(2) {
+  background-color: var(--color-logo);
+} */
+
+.blocks>div:nth-child(2),
+.blocks>div:nth-child(2) .text {
+  background-color: var(--color-logo);
+}
+
+.blocks>div:nth-child(2),
+.blocks>div:nth-child(2) .text p+p {
+  color: var(--text-color);
+}
+
+.blocks .text {
+  width: 100%;
+  padding-left: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.blocks .text p:first-child {
+  color: var(--text-color);
+  font-size: 1.25rem;
+}
+
+.blocks .text p+p {
+  color: var(--color-logo);
+  font-size: 1.25rem;
+}
+
+.artists .see-more {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  line-height: 1.52rem;
+  width: 16.27rem;
+  margin: 3.37rem auto;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

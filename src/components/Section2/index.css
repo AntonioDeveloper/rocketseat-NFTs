@@ -1,0 +1,95 @@
+.stats-container {
+  background: var(--black-text);
+  border-bottom: 1px solid var(--subtitle-color);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.left-bar,
+.container-right-box {
+  color: var(--text-color);
+  height: 100%;
+}
+
+.left-bar {
+  width: 18%;
+  height: 24.12rem;
+  float: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-bar strong {
+  display: block;
+  font-size: 3.125rem;
+  line-height: 3.8rem;
+}
+
+.left-bar div {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--subtitle-color);
+  line-height: 1.52rem;
+  text-align: center;
+  width: 80%;
+}
+
+.left-bar div strong {
+  color: var(--text-color);
+}
+
+
+
+.container-right-box {
+  width: 82%;
+  float: right;
+  padding: 4.44rem 0 0 0;
+
+  border-left: 1px solid var(--subtitle-color);
+}
+
+.left-text {
+  margin-right: 10%;
+  float: left;
+  padding: 0 0 0 4.44rem;
+}
+
+.right-text {
+  float: right;
+  padding: 0 4.44rem 0 0;
+}
+
+.left-text,
+.right-text {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  width: 45%;
+}
+
+.left-text p,
+.right-text p {
+  margin-bottom: 3.94rem;
+}
+
+.left-text a,
+.right-text a {
+  color: var(--text-color);
+}
+
+.stats-image {
+  width: 100%;
+  float: right;
+  margin-top: 4.44rem;
+
+  display: flex;
+}
+
+.stats-image img {
+  width: 100%;
+}

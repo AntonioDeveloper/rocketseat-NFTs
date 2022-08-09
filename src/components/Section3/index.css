@@ -1,0 +1,97 @@
+.popular {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 0 auto 3.56rem;
+  background-color: var(--black-text);
+  padding: 9.37rem 2.25rem 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 3.12rem;
+  line-height: 3.81rem;
+}
+
+strong {
+  color: var(--color-logo);
+  font-size: 3.12rem;
+  line-height: 3.81rem;
+}
+
+.odd-astronauts,
+.even-astronauts {
+  width: 50%;
+  color: var(--text-color);
+  background-color: var(--black-text);
+  margin-top: 6.25rem;
+}
+
+.odd-astronauts {
+  border-right: 1px solid var(--subtitle-color);
+  float: left;
+}
+
+.even-astronauts {
+  float: right;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  width: 19.25rem;
+  justify-content: space-between;
+}
+
+span p:last-child {
+  color: var(--color-logo);
+}
+
+.astronaut1,
+.astronaut2,
+.astronaut3,
+.astronaut4 {
+  margin-top: 3.12rem;
+}
+
+.astronaut1 p,
+.astronaut2 p,
+.astronaut3 p,
+.astronaut4 p {
+  font-weight: 500;
+  font-size: 1.87rem;
+  line-height: 2.31rem;
+}
+
+.astronaut1 span+span,
+.astronaut2 span+span,
+.astronaut3 span+span,
+.astronaut4 span+span {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--subtitle-color);
+  margin-top: 2.75rem;
+}
+
+.astronaut1 span+span p,
+.astronaut2 span+span p,
+.astronaut3 span+span p,
+.astronaut4 span+span p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-style: normal;
+}
+
+.astronaut1 img,
+.astronaut2 img,
+.astronaut3 img,
+.astronaut4 img {
+  clip-path: inset(2px);
+  margin-top: 1.62rem;
+}
