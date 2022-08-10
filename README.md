@@ -7,3 +7,5 @@
 - Navegue até a pasta "vite-project";
 - Instale as dependências com o comando "npm install";
 - Rode o projeto com "npm run dev" e abra o navegador com endereço que vai aparecer no terminal.
+
+![screenshot](https://github.com/AntonioDeveloper/rocketseat-NFTs/blob/main/src/assets/Rocket_NFTs.png)
