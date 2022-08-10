@@ -83,6 +83,14 @@ input::placeholder {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
+  cursor: pointer;
+
+  transition: color 1s;
+}
+
+.btn-submit:hover {
+  background-color: var(--color-logo);
+  color: var(--black-text);
 }
 
 .footer-right {
