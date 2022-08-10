@@ -6,11 +6,34 @@ import logoTwitter from '../../assets/twitter.svg';
 import logoEmail from '../../assets/email.svg';
 
 export function Footer() {
+
+  const upBtn = document.querySelector(".button-up");
+
+  window.onscroll = function () {
+    scrollFunction();
+  }
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      upBtn.style.display = "flex";
+    } else {
+      upBtn.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    //Para o Safari
+    document.body.scrollTop = 0;
+
+    //Para Chrome, Firefox, IE e Opera
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
     <footer>
       <div className='header-footer'>
         <img src={imgLogo} alt="Rocket NFTs" />
-        <div className='button-up'>
+        <div className='button-up' onClick={topFunction}>
           <svg width="42" height="42" viewBox="0 0 42 42" fill="none" transform="rotate(-32)" xmlns="http://www.w3.org/2000/svg">
             <path d="M21.9881 16.2079L15.6347 26.3674L17.7544 27.6929L24.1078 17.5334L25.8123 24.9286L28.248 24.3671L25.585 12.8136L14.0316 15.4766L14.593 17.9124L21.9881 16.2079Z" fill="#000" />
           </svg>

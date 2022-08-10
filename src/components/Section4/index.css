@@ -20,23 +20,24 @@
   margin-top: 7.5rem;
 }
 
-.blocks div {
+.blocks a {
   display: flex;
 
   background-color: var(--card-color);
+  text-decoration: none;
 }
 
-.blocks div:not(.text) {
+.blocks a:not(.text) {
   padding: 1.56rem 2rem;
 }
 
-.blocks>div:nth-child(2),
-.blocks>div:nth-child(2) .text {
+.blocks>a:nth-child(2),
+.blocks>a:nth-child(2) .text {
   background-color: var(--color-logo);
 }
 
-.blocks>div:nth-child(2),
-.blocks>div:nth-child(2) .text p+p {
+.blocks>a:nth-child(2),
+.blocks>a:nth-child(2) .text p+p {
   color: var(--text-color);
 }
 

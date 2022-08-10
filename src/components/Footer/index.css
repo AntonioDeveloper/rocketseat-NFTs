@@ -17,8 +17,12 @@ footer {
   height: 5rem;
   background-color: var(--color-logo);
   cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  bottom: 1.25rem;
+  right: 2.25rem;
 
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -62,6 +66,9 @@ input {
   padding: 1.31rem 1.25rem;
   background-color: var(--black-text);
   width: 65%;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
 }
 
 input::placeholder {
@@ -75,6 +82,7 @@ button {
   color: var(--black-text);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  font-size: 1.25rem;
 }
 
 .footer-right {
@@ -112,6 +120,14 @@ button {
   line-height: 1.52rem;
   color: var(--subtitle-color);
   text-decoration: none;
+
+  transition: color 1s;
+}
+
+.menu-empresa li a:hover,
+.menu-mapa li a:hover,
+.menu-links li a:hover {
+  color: var(--color-logo);
 }
 
 .social {
@@ -129,6 +145,12 @@ button {
   color: var(--subtitle-color);
   font-size: 1.25rem;
   line-height: 1.52rem;
+
+  transition: color 1s;
+}
+
+.rocket-link:hover {
+  color: var(--color-logo);
 }
 
 .social-nets {
