@@ -1,8 +1,9 @@
 import './index.css';
-import astronaut1 from '../../assets/galeria-2.png';
-import astronaut2 from '../../assets/galeria-3.png';
-import astronaut3 from '../../assets/galeria-4.png';
-import astronaut4 from '../../assets/galeria-8.png';
+import arrow from '../../assets/Arrow.png';
+import astronaut1 from '../../assets/astronauta-1.png';
+import astronaut2 from '../../assets/astronauta-2.png';
+import astronaut3 from '../../assets/astronauta-3.png';
+import astronaut4 from '../../assets/astronauta-4.png';
 
 export function Section3() {
   return (
@@ -11,12 +12,9 @@ export function Section3() {
       <div className='all-astronauts'>
         <div className='odd-astronauts'>
           <div className='astronaut1'>
-            <span>
+            <span className='astronaut-title'>
               <p>Astronauta 1</p>
-              <svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.9881 16.2079L15.6347 26.3674L17.7544 27.6929L24.1078 17.5334L25.8123 24.9286L28.248 24.3671L25.585 12.8136L14.0316 15.4766L14.593 17.9124L21.9881 16.2079Z" fill="#FFF" />
-              </svg>
-
+              <img src={arrow} alt="" />
             </span>
             <span>
               <p>Mayk Brito</p>
@@ -26,11 +24,9 @@ export function Section3() {
           </div>
 
           <div className='astronaut3'>
-            <span>
+            <span className='astronaut-title'>
               <p>Astronauta 3</p>
-              <svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.9881 16.2079L15.6347 26.3674L17.7544 27.6929L24.1078 17.5334L25.8123 24.9286L28.248 24.3671L25.585 12.8136L14.0316 15.4766L14.593 17.9124L21.9881 16.2079Z" fill="#FFF" />
-              </svg>
+              <img src={arrow} alt="" />
 
             </span>
             <span>
@@ -42,11 +38,9 @@ export function Section3() {
         </div>
         <div className='even-astronauts'>
           <div className='astronaut2'>
-            <span>
+            <span className='astronaut-title'>
               <p>Astronauta 2</p>
-              <svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.9881 16.2079L15.6347 26.3674L17.7544 27.6929L24.1078 17.5334L25.8123 24.9286L28.248 24.3671L25.585 12.8136L14.0316 15.4766L14.593 17.9124L21.9881 16.2079Z" fill="#FFF" />
-              </svg>
+              <img src={arrow} alt="" />
 
             </span>
             <span>
@@ -57,11 +51,9 @@ export function Section3() {
           </div>
 
           <div className='astronaut4'>
-            <span>
+            <span className='astronaut-title'>
               <p>Astronauta 4</p>
-              <svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.9881 16.2079L15.6347 26.3674L17.7544 27.6929L24.1078 17.5334L25.8123 24.9286L28.248 24.3671L25.585 12.8136L14.0316 15.4766L14.593 17.9124L21.9881 16.2079Z" fill="#FFF" />
-              </svg>
+              <img src={arrow} alt="" />
 
             </span>
             <span>

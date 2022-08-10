@@ -16,7 +16,7 @@ import galeria8 from '../../assets/galeria-8.png';
 export function Section1() {
   return (
     <section className='container'>
-      <div className='top'>
+      <header className='top'>
         <img src={logo} alt="Rocket NFTs" />
         <nav className="menu">
           <ul>
@@ -35,7 +35,7 @@ export function Section1() {
           <img src={metaMaskIcon} alt="meta mask icon" />
           Conectar carteira
         </button>
-      </div>
+      </header>
 
       <div className='box-content'>
         <div className='left-content'>

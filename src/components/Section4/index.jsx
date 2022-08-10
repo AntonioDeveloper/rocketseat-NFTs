@@ -10,7 +10,7 @@ import arrow from '../../assets/Arrow.svg';
 export function Section4() {
   return (
     <section className='artists'>
-      <h1 className='h1-artistas'>Melhores <strong>artistas</strong></h1>
+      <h2 className='h2-artistas'>Melhores <strong>artistas</strong></h2>
       <div className='blocks'>
         <a href="#" className='cards'>
           <img src={artist1} alt="Mayk Brito" />
