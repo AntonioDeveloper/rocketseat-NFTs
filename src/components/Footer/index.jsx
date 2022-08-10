@@ -9,18 +9,6 @@ export function Footer() {
 
   const upBtn = document.querySelector(".button-up");
 
-  window.onscroll = function () {
-    scrollFunction();
-  }
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      upBtn.style.display = "flex";
-    } else {
-      upBtn.style.display = "none";
-    }
-  }
-
   function topFunction() {
     //Para o Safari
     document.body.scrollTop = 0;

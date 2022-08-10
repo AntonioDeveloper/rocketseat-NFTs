@@ -17,12 +17,9 @@ footer {
   height: 5rem;
   background-color: var(--color-logo);
   cursor: pointer;
-  position: fixed;
-  z-index: 99;
-  bottom: 1.25rem;
-  right: 2.25rem;
 
-  display: none;
+
+  display: flex;
   justify-content: center;
   align-items: center;
 }
