@@ -4,8 +4,10 @@
   margin: 9.44rem auto 0;
 }
 
-h1 {
+.h1-artistas {
   text-align: center;
+  font-size: 3.12rem;
+  color: var(--text-color);
 }
 
 .blocks {
@@ -27,10 +29,6 @@ h1 {
 .blocks div:not(.text) {
   padding: 1.56rem 2rem;
 }
-
-/* .blocks:nth-child(2) {
-  background-color: var(--color-logo);
-} */
 
 .blocks>div:nth-child(2),
 .blocks>div:nth-child(2) .text {
@@ -66,7 +64,7 @@ h1 {
   font-size: 1.25rem;
   line-height: 1.52rem;
   width: 16.27rem;
-  margin: 3.37rem auto;
+  margin: 3.37rem auto 9.19rem;
   text-decoration: none;
 
   display: flex;

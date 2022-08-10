@@ -7,7 +7,7 @@ import astronaut4 from '../../assets/galeria-8.png';
 export function Section3() {
   return (
     <section className="popular">
-      <h1><strong>Populares</strong> da semana</h1>
+      <h1 className='h1-populares'><strong>Populares</strong> da semana</h1>
       <div className='all-astronauts'>
         <div className='odd-astronauts'>
           <div className='astronaut1'>

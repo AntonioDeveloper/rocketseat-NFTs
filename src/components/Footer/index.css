@@ -1,0 +1,145 @@
+footer {
+  background-color: #252525;
+}
+
+.header-footer {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 0 auto 3.56rem;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0 3.75rem;
+}
+
+.button-up {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color-logo);
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  border-top: 1px solid var(--subtitle-color);
+  border-bottom: 1px solid var(--subtitle-color);
+  display: flex;
+}
+
+.footer-left {
+  width: 36.5%;
+  padding: 4.19rem 2.25rem 3.31rem;
+  border-right: 1px solid var(--subtitle-color);
+}
+
+.text-news {
+  max-width: 420px;
+}
+
+.footer-left p,
+.footer-left p span {
+  font-size: 1.88rem;
+  line-height: 2.31rem;
+}
+
+.footer-left p {
+  color: var(--text-color);
+}
+
+.footer-left p span {
+  color: var(--color-logo);
+}
+
+form {
+  margin-top: 1.62rem;
+  max-width: 420px;
+}
+
+input {
+  padding: 1.31rem 1.25rem;
+  background-color: var(--black-text);
+  width: 65%;
+}
+
+input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+}
+
+button {
+  width: 28%;
+  padding: 1.25rem;
+  color: var(--black-text);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.footer-right {
+  width: 63.5%;
+  padding: 5rem 0 3.75rem 7.62rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu-empresa li:not(li:first-child),
+.menu-mapa li:not(li:first-child),
+.menu-links li:not(li:first-child) {
+  padding: 0.94rem 0;
+}
+
+.menu-empresa li strong,
+.menu-mapa li strong,
+.menu-links li strong {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  line-height: 1.52rem;
+}
+
+.menu-empresa,
+.menu-mapa,
+.menu-links {
+  list-style-type: none;
+}
+
+.menu-empresa li a,
+.menu-mapa li a,
+.menu-links li a {
+  font-size: 1.25rem;
+  line-height: 1.52rem;
+  color: var(--subtitle-color);
+  text-decoration: none;
+}
+
+.social {
+  max-width: 79.8rem;
+  width: 100%;
+  margin: 0 auto 3.56rem;
+  padding: 4.31rem 0 3.81rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.rocket-link {
+  text-decoration: none;
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  line-height: 1.52rem;
+}
+
+.social-nets {
+  list-style-type: none;
+  width: 30%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-nets li {
+  width: 2.12rem;
+  display: inline;
+}

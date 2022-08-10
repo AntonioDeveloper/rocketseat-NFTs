@@ -9,10 +9,11 @@
   flex-direction: column;
 }
 
-h1 {
+.h1-populares {
   color: var(--text-color);
   font-size: 3.12rem;
   line-height: 3.81rem;
+  text-align: left;
 }
 
 strong {
