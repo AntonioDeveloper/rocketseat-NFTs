@@ -44,8 +44,6 @@
   color: var(--text-color);
 }
 
-
-
 .container-right-box {
   width: 82%;
   float: right;
@@ -77,9 +75,16 @@
   margin-bottom: 3.94rem;
 }
 
+.left-text p a,
+.right-text p a {
+  color: var(--color-logo);
+  text-underline-offset: .2rem;
+}
+
 .left-text a,
 .right-text a {
   color: var(--text-color);
+  text-underline-offset: .2rem;
 }
 
 .stats-image {

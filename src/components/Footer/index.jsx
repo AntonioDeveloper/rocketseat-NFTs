@@ -44,7 +44,7 @@ export function Footer() {
           <p className='text-news'>Fique por dentro de <br /> <span>todas as novidades</span></p>
           <form>
             <input id="email" name="email" placeholder='nft@rocketseat.com.br' />
-            <button type="submit">Enviar</button>
+            <button type="submit" className="btn-submit">Enviar</button>
           </form>
         </div>
         <div className='footer-right'>

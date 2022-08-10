@@ -76,7 +76,7 @@ input::placeholder {
   font-size: 1.25rem;
 }
 
-button {
+.btn-submit {
   width: 28%;
   padding: 1.25rem;
   color: var(--black-text);

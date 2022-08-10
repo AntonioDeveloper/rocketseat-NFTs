@@ -50,8 +50,8 @@ export function Section3() {
 
             </span>
             <span>
-              <p>Mayk Brito</p>
-              <p>1.50 RKT</p>
+              <p>Jakeliny Gracielly</p>
+              <p>2.0 RKT</p>
             </span>
             <img src={astronaut2} alt="astronauta 2" />
           </div>
@@ -65,8 +65,8 @@ export function Section3() {
 
             </span>
             <span>
-              <p>João Inácio (Biro)</p>
-              <p>3.75 RKT</p>
+              <p>Tamires Santos</p>
+              <p>4.30 RKT</p>
             </span>
             <img src={astronaut4} alt="astronauta 4" />
           </div>
